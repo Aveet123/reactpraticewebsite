@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading{
+  color: yellowgreen;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.active_class{
+  color: rgb(119,0,255);
+  border-bottom: 1px solid red;
+}
